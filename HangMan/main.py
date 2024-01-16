@@ -20,11 +20,9 @@ while not end_of_game:
     
     print(stages[lives])
     if lives == 0:
-        break
+        end_of_game = True
+        print("You lose...")
     
     if display == chosen_word:
         end_of_game = True
         print("You win!!!")
-
-if not end_of_game:
-    print("You lose...")
