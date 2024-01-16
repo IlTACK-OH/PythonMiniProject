@@ -1,6 +1,6 @@
-from make_word import make_random_word as mrw
-from make_answer import make_answer
-from hangman_art import stages, logo
+from utils.make_word import make_random_word as mrw
+from utils.make_answer import make_answer
+from utils.hangman_art import stages, logo
 
 lives = 6
 end_of_game = False
